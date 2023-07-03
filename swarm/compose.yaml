@@ -6,7 +6,7 @@ volumes:
   
 services:
   web-fe:
-    image: nigelpoulton/gsd:swarm2023
+    image: aminoviche/gsd:swarm2023
     command: python app.py
     deploy:
       replicas 10
